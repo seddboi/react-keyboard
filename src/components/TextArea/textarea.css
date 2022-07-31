@@ -1,0 +1,8 @@
+.text-area {
+	background: #ffff;
+	border: 2px solid #999;
+	border-radius: 10px;
+	width: 600px;
+	height: auto;
+	margin-top: 10px;
+}

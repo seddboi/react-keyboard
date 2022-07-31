@@ -1,0 +1,23 @@
+.keyboard-background {
+	background: #999;
+	height: auto;
+	width: 100%;
+	margin-top: 10px;
+	border: 2px solid #999;
+	border-radius: 20px;
+}
+
+.single-char-button {
+	min-width: 50px;
+	margin: 5px;
+	padding: 10px;
+	border: solid 1px #000;
+	border-radius: 5px;
+}
+
+.multi-char-button {
+	margin: 5px;
+	padding: 15px;
+	border: solid 1px #000;
+	border-radius: 5px;
+}
