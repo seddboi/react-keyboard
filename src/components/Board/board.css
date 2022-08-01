@@ -29,6 +29,8 @@
 }
 
 .bottom-row-single-char-button {
+	display: flex;
+	justify-content: center;
 	color: #000;
 	font-size: 16px;
 	background: #ffdbac;
@@ -81,4 +83,34 @@
 	background: #f1c27d;
 	box-shadow: 1px 1px #000;
 	transform: translate(2px, 2px);
+}
+
+@media only screen and (max-width: 600px) {
+	.keyboard-background {
+		margin-top: 100px;
+		padding: 0px !important;
+		min-width: 300px;
+	}
+
+	.single-char-button {
+		padding: 15px;
+	}
+
+	.bottom-row-single-char-button {
+		display: flex;
+		justify-content: center;
+		padding: 15px;
+	}
+
+	.multi-char-button {
+		padding: 5px;
+	}
+
+	.space-button {
+		min-width: 200px;
+	}
+
+	#hidden-on-mobile {
+		display: none;
+	}
 }

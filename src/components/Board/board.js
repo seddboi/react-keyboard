@@ -8,10 +8,12 @@ export function Board() {
 			<Stack
 				direction="row"
 				justifyContent="space-between"
-				spacing={{ sm: 1, lg: 2 }}
+				spacing={{ sm: 1, lg: 3 }}
 				sx={{ mt: 2 }}
 			>
-				<button className="single-char-button">`</button>
+				<button className="single-char-button" id="hidden-on-mobile">
+					`
+				</button>
 				<button className="single-char-button">1</button>
 				<button className="single-char-button">2</button>
 				<button className="single-char-button">3</button>
@@ -22,13 +24,21 @@ export function Board() {
 				<button className="single-char-button">8</button>
 				<button className="single-char-button">9</button>
 				<button className="single-char-button">0</button>
-				<button className="single-char-button">-</button>
-				<button className="single-char-button">=</button>
-				<button className="multi-char-button">delete</button>
+				<button className="single-char-button" id="hidden-on-mobile">
+					-
+				</button>
+				<button className="single-char-button" id="hidden-on-mobile">
+					=
+				</button>
+				<button className="multi-char-button" id="hidden-on-mobile">
+					delete
+				</button>
 			</Stack>
 
-			<Stack direction="row" justifyContent="space-between" spacing={{ sm: 1, lg: 2 }}>
-				<button className="multi-char-button">tab</button>
+			<Stack direction="row" justifyContent="space-between" spacing={{ sm: 1, lg: 3 }}>
+				<button className="multi-char-button" id="hidden-on-mobile">
+					tab
+				</button>
 				<button className="single-char-button">q</button>
 				<button className="single-char-button">w</button>
 				<button className="single-char-button">e</button>
@@ -39,13 +49,21 @@ export function Board() {
 				<button className="single-char-button">i</button>
 				<button className="single-char-button">o</button>
 				<button className="single-char-button">p</button>
-				<button className="single-char-button">[</button>
-				<button className="single-char-button">]</button>
-				<button className="single-char-button">\</button>
+				<button className="single-char-button" id="hidden-on-mobile">
+					[
+				</button>
+				<button className="single-char-button" id="hidden-on-mobile">
+					]
+				</button>
+				<button className="single-char-button" id="hidden-on-mobile">
+					\
+				</button>
 			</Stack>
 
-			<Stack direction="row" justifyContent="space-between" spacing={{ sm: 1, lg: 2 }}>
-				<button className="multi-char-button">caps</button>
+			<Stack direction="row" justifyContent="space-between" spacing={{ sm: 1, lg: 3 }}>
+				<button className="multi-char-button" id="hidden-on-mobile">
+					caps
+				</button>
 				<button className="single-char-button">a</button>
 				<button className="single-char-button">s</button>
 				<button className="single-char-button">d</button>
@@ -55,12 +73,18 @@ export function Board() {
 				<button className="single-char-button">j</button>
 				<button className="single-char-button">k</button>
 				<button className="single-char-button">l</button>
-				<button className="single-char-button">;</button>
-				<button className="single-char-button">'</button>
-				<button className="multi-char-button">return</button>
+				<button className="single-char-button" id="hidden-on-mobile">
+					;
+				</button>
+				<button className="single-char-button" id="hidden-on-mobile">
+					'
+				</button>
+				<button className="multi-char-button" id="hidden-on-mobile">
+					return
+				</button>
 			</Stack>
 
-			<Stack direction="row" justifyContent="space-between" spacing={{ sm: 1, lg: 2 }}>
+			<Stack direction="row" justifyContent="space-between" spacing={{ sm: 1, lg: 3 }}>
 				<button className="multi-char-button">shift</button>
 				<button className="single-char-button">z</button>
 				<button className="single-char-button">x</button>
@@ -69,19 +93,27 @@ export function Board() {
 				<button className="single-char-button">b</button>
 				<button className="single-char-button">n</button>
 				<button className="single-char-button">m</button>
-				<button className="single-char-button">,</button>
-				<button className="single-char-button">.</button>
-				<button className="single-char-button">/</button>
+				<button className="single-char-button" id="hidden-on-mobile">
+					,
+				</button>
+				<button className="single-char-button" id="hidden-on-mobile">
+					.
+				</button>
+				<button className="single-char-button" id="hidden-on-mobile">
+					/
+				</button>
 				<button className="multi-char-button">shift</button>
 			</Stack>
 
 			<Stack
 				direction="row"
 				justifyContent="space-between"
-				spacing={{ sm: 1, lg: 2 }}
+				spacing={{ sm: 1, lg: 3 }}
 				sx={{ mb: 2 }}
 			>
-				<button className="bottom-row-single-char-button">.com</button>
+				<button className="bottom-row-single-char-button" id="hidden-on-mobile">
+					.com
+				</button>
 				<button className="bottom-row-single-char-button">@</button>
 				<button className="space-button"></button>
 			</Stack>
