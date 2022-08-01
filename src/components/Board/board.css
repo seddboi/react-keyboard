@@ -1,23 +1,84 @@
 .keyboard-background {
-	background: #999;
-	height: auto;
-	width: 100%;
-	margin-top: 10px;
-	border: 2px solid #999;
-	border-radius: 20px;
+	background: #e0ac69;
+	min-width: 600px;
+	margin: 20px;
+	border: 2px solid #000;
+	border-radius: 10px;
+	box-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000, 4px 4px #000, 5px 5px #000;
 }
 
 .single-char-button {
-	min-width: 50px;
-	margin: 5px;
-	padding: 10px;
+	display: flex;
+	justify-content: center;
+	color: #000;
+	font-size: 16px;
+	background: #ffdbac;
+	min-width: 20px;
+	margin: 3px !important;
+	padding: 15px;
 	border: solid 1px #000;
-	border-radius: 5px;
+	border-radius: 10px;
+	flex-grow: 1;
+	box-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000;
+}
+
+.single-char-button:active {
+	background: #f1c27d;
+	box-shadow: 1px 1px #000;
+	transform: translate(2px, 2px);
+}
+
+.bottom-row-single-char-button {
+	color: #000;
+	font-size: 16px;
+	background: #ffdbac;
+	min-width: 20px;
+	margin: 3px !important;
+	padding: 15px;
+	border: solid 1px #000;
+	border-radius: 9px;
+	box-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000;
+}
+
+.bottom-row-single-char-button:active {
+	background: #f1c27d;
+	box-shadow: 1px 1px #000;
+	transform: translate(2px, 2px);
 }
 
 .multi-char-button {
-	margin: 5px;
+	color: #000;
+	font-size: 16px;
+	background: #ffdbac;
+	margin: 3px !important;
 	padding: 15px;
 	border: solid 1px #000;
-	border-radius: 5px;
+	border-radius: 9px;
+	flex-grow: 3;
+	box-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000;
+}
+
+.multi-char-button:active {
+	background: #f1c27d;
+	box-shadow: 1px 1px #000;
+	transform: translate(2px, 2px);
+}
+
+.space-button {
+	color: #000;
+	font-size: 16px;
+	background: #ffdbac;
+	margin: 3px !important;
+	padding: 15px;
+	border: solid 1px #000;
+	border-radius: 9px;
+	min-width: 400px;
+	flex-grow: 3;
+	box-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000;
+}
+
+.space-button:active {
+	background: #f1c27d;
+	box-shadow: 1px 1px #000;
+	transform: translate(2px, 2px);
 }

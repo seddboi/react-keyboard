@@ -5,7 +5,7 @@ import { TextArea } from './components/TextArea/textarea';
 
 function App() {
 	return (
-		<Box className="App" sx={{ display: 'flex', justifyContent: 'center' }}>
+		<Box className="App" sx={{ display: 'flex', alignItems: 'center' }}>
 			<TextArea />
 			<Board />
 		</Box>

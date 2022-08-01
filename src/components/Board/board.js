@@ -4,8 +4,13 @@ import './board.css';
 
 export function Board() {
 	return (
-		<Container className="keyboard-background">
-			<Stack direction="row">
+		<Container className="keyboard-background" maxWidth="md">
+			<Stack
+				direction="row"
+				justifyContent="space-between"
+				spacing={{ sm: 1, lg: 2 }}
+				sx={{ mt: 2 }}
+			>
 				<button className="single-char-button">`</button>
 				<button className="single-char-button">1</button>
 				<button className="single-char-button">2</button>
@@ -22,7 +27,7 @@ export function Board() {
 				<button className="multi-char-button">delete</button>
 			</Stack>
 
-			<Stack direction="row">
+			<Stack direction="row" justifyContent="space-between" spacing={{ sm: 1, lg: 2 }}>
 				<button className="multi-char-button">tab</button>
 				<button className="single-char-button">q</button>
 				<button className="single-char-button">w</button>
@@ -39,7 +44,7 @@ export function Board() {
 				<button className="single-char-button">\</button>
 			</Stack>
 
-			<Stack direction="row">
+			<Stack direction="row" justifyContent="space-between" spacing={{ sm: 1, lg: 2 }}>
 				<button className="multi-char-button">caps</button>
 				<button className="single-char-button">a</button>
 				<button className="single-char-button">s</button>
@@ -55,7 +60,7 @@ export function Board() {
 				<button className="multi-char-button">return</button>
 			</Stack>
 
-			<Stack direction="row">
+			<Stack direction="row" justifyContent="space-between" spacing={{ sm: 1, lg: 2 }}>
 				<button className="multi-char-button">shift</button>
 				<button className="single-char-button">z</button>
 				<button className="single-char-button">x</button>
@@ -70,9 +75,14 @@ export function Board() {
 				<button className="multi-char-button">shift</button>
 			</Stack>
 
-			<Stack direction="row">
-				<button className="multi-char-button">.com</button>
-				<button className="single-char-button">@</button>
+			<Stack
+				direction="row"
+				justifyContent="space-between"
+				spacing={{ sm: 1, lg: 2 }}
+				sx={{ mb: 2 }}
+			>
+				<button className="bottom-row-single-char-button">.com</button>
+				<button className="bottom-row-single-char-button">@</button>
 				<button className="space-button"></button>
 			</Stack>
 		</Container>
